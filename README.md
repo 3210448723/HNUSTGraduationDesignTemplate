@@ -1,0 +1,2 @@
+# HNUSTGraduationDesignTemplate
+湖南科技大学毕业设计模板及相关文件
