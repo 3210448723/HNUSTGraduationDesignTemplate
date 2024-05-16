@@ -13,7 +13,7 @@
    > [“孤行控制”“与下段同页”“段中不分页”“段前分页”是什么意思？ - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/613209475)
 5. 表格设置了三线表格式，直接套用就行。
    ![image](https://github.com/3210448723/HNUSTGraduationDesignTemplate/assets/61307277/2b5a07a1-ac1d-47bd-b278-ab640a7b1ff9)
-7. 如果要使用公式建议结合`MathType`使用（实现了自动编号和公式居中[1](https://zhuanlan.zhihu.com/p/421681741)、[2](https://zhuanlan.zhihu.com/p/473078485)）；
+7. 如果要使用公式建议结合`MathType`使用（实现了自动编号和公式居中[1](https://zhuanlan.zhihu.com/p/421681741)、[2](https://zhuanlan.zhihu.com/p/473078485)），在确定好章节后将`MTEquationSection`格式设置为隐藏（[2](https://zhuanlan.zhihu.com/p/473078485)）；
 8. 如果不用`MathType`的话，需要删除每个章节后的用于公式自动编号的`公式章 (下一章) 节 1`隐藏字符![image](https://github.com/3210448723/HNUSTGraduationDesignTemplate/assets/61307277/14a503af-d1f7-49c3-8d25-7b42486efabc)
 9. 关于`含章节号的题注编号以阿拉伯数字显示`的问题，看来看去还是觉得[该方法](https://gitcode.csdn.net/65e7d4151a836825ed789985.html)比较简单.注意这一步要**最后**执行，如果更新了域代码或者新插入了题注，会导致如`一.1`的格式问题。
 
