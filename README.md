@@ -25,6 +25,7 @@
 4. 多用格式刷
 5. 打印使用导出的PDF版本，避免格式错乱
 6. 多用![image](https://github.com/3210448723/HNUSTGraduationDesignTemplate/assets/61307277/06ea018f-e635-4628-8f8b-3dcce7b223a9)改错
+7. 如果目录中条目首字符出现中英文没有对其的情况的话，![image](https://github.com/user-attachments/assets/7ec8f5d6-bbdc-4bbd-ac32-b744c2900c69)需要选中目录并勾选`允许西文字符换行`，不过这样会导致样式略微变化，暂时没发现更高的办法。
 
 
 ## 未实现
