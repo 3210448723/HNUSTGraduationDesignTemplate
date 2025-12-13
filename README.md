@@ -15,18 +15,25 @@
    ![image](https://github.com/3210448723/HNUSTGraduationDesignTemplate/assets/61307277/2b5a07a1-ac1d-47bd-b278-ab640a7b1ff9)
 7. 如果要使用公式建议结合`MathType`使用（实现了自动编号和公式居中[1](https://zhuanlan.zhihu.com/p/421681741)、[2](https://zhuanlan.zhihu.com/p/473078485)），在确定好章节后将`MTEquationSection`格式设置为隐藏（[2](https://zhuanlan.zhihu.com/p/473078485)），注意设置隐藏后按退格也会删除隐藏的文字；
 8. 如果不用`MathType`的话，需要删除每个章节后的用于公式自动编号的`公式章 (下一章) 节 1`隐藏字符![image](https://github.com/3210448723/HNUSTGraduationDesignTemplate/assets/61307277/14a503af-d1f7-49c3-8d25-7b42486efabc)
-9. 关于`含章节号的题注编号以阿拉伯数字显示`的问题，看来看去还是觉得[该方法](https://gitcode.csdn.net/65e7d4151a836825ed789985.html)比较简单。注意这一步要**最后**执行，如果更新了域代码或者新插入了题注，会导致如`一.1`的格式问题。同时如果要**导出PDF**的话也会导致更新域代码，此时可以用'ctrl+a'选择所有内容，再按`ctrl+F11`来锁定域，避免更新；按`ctrl+shift+F11`来取消锁定域。
+9. 关于`含章节号的题注编号以阿拉伯数字显示`的问题，看来看去还是觉得[该方法](https://gitcode.csdn.net/65e7d4151a836825ed789985.html)比较简单。注意这一步要**最后**执行，如果更新了域代码或者新插入了题注，会导致如`一.1`的格式问题。同时如果要**导出PDF**的话也会导致更新域代码，此时可以用'ctrl+a'选择所有内容，再按`ctrl+F11`来锁定域，避免更新；按`ctrl+shift+F11`来取消锁定域，也可以设置导出pdf时不更新域。
 10. [Word中中英文目录对齐设置问题_目录中中文和英文没对齐-CSDN博客](https://blog.csdn.net/perfect12345/article/details/8658174)，但不算特别好的解决方案
 
 ## 建议
-1. 使用zotero管理参考文献
+1. 使用Zotero管理参考文献，安装[Zotero 中文社区 (zotero-chinese.com)\_GB/T 7714—2015（顺序编码，双语）\_中文 CSL 样式](https://zotero-chinese.com/styles/GB-T-7714—2015（顺序编码，双语）/)样式文件，
 2. 在word选项->显示->勾选`显示所有格式标记`，这样可以看到许多隐藏符号
 3. 在表格中选择`查看网格线`![](https://github.com/3210448723/HNUSTGraduationDesignTemplate/assets/61307277/e02d5117-7e86-4fa5-a542-85bdd982d69c)
 4. 多用格式刷
 5. 打印使用导出的PDF版本，避免格式错乱
 6. 多用![image](https://github.com/3210448723/HNUSTGraduationDesignTemplate/assets/61307277/06ea018f-e635-4628-8f8b-3dcce7b223a9)改错
-7. 如果目录中条目首字符出现中英文没有对其的情况的话，![image](https://github.com/user-attachments/assets/7ec8f5d6-bbdc-4bbd-ac32-b744c2900c69)需要选中目录并勾选`允许西文字符换行`，不过这样会导致样式略微变化，暂时没发现更高的办法。
+7. 如果目录中条目首字符出现中英文没有对齐的情况的话，![image](https://github.com/user-attachments/assets/7ec8f5d6-bbdc-4bbd-ac32-b744c2900c69)需要选中目录并勾选`允许西文字符换行`，不过这样会导致样式略微变化，暂时没发现更高的办法。
 
 
 ## 未实现
 1. 目录格式设置与样式的绑定 
+
+## Office 额外建议
+
+1. [设置word默认字体_word默认字体是等线怎么改-CSDN博客](https://blog.csdn.net/weixin_42505757/article/details/125216369)
+2. [修改PPT默认字体方法（win11+office2021） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/556010400)
+3. [Excel默认字体设置，有效！！！ - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/616381430)
+4. PPT 公式不用Mathtype，用内置公式编辑器就行，不然不方便排版
